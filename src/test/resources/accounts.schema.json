@@ -4,7 +4,7 @@
   "items": {
     "type": "object",
     "required": [
-      "second name",
+      "id",
       "name",
       "number",
       "balance",
@@ -27,6 +27,7 @@
         "type": "integer"
       },
       "currency": {
+        "type": "string",
         "type": "string"
       }
     }
