@@ -24,7 +24,7 @@ public class MobileBankApiTest4 {
                 // специализированные проверки - лучше
                 .contentType(ContentType.JSON)
                 .body("", hasSize(3))
-                .body("[0].currency", equalTo("RUR"))
+                .body("[0].currency", equalTo("RUB"))
                 .body("[1].currency",equalTo("USD"))
                 .body("[0].balance", greaterThanOrEqualTo(0))
         ;
