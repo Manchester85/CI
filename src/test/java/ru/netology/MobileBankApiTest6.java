@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 
 public class MobileBankApiTest6 {
         private RequestSpecification requestSpec = new RequestSpecBuilder()
-                .setBaseUri("http://localhost")
+                .setBaseUri("http://0.0.0.0")
                 .setBasePath("/api/v1")
                 .setPort(9999)
                 .setAccept(ContentType.JSON)
